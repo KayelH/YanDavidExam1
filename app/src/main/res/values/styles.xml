@@ -1,0 +1,76 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="MainText">
+        <item name="android:textSize">64px</item>
+        <item name="android:text">Occasional Chair</item>
+    </style>
+
+    <style name="DescText">
+        <item name="android:textSize">40px</item>
+        <item name="android:text">Description</item>
+        <item name="android:color">gray</item>
+    </style>
+
+    <style name="WebsiteBtn">
+        <item name="android:textSize">30px</item>
+        <item name="android:text">Visit Website</item>
+    </style>
+
+    <style name="WeightCap">
+        <item name="android:textSize">50px</item>
+        <item name="android:text">100kg</item>
+    </style>
+
+    <style name="PriceTag">
+        <item name="android:textSize">50px</item>
+        <item name="android:text">$49.00</item>
+    </style>
+
+    <style name="Delivery">
+        <item name="android:text">3-5 Days</item>
+        <item name="android:textSize">50px</item>
+    </style>
+
+    <style name="Payment">
+        <item name="android:text">Credit Card</item>
+        <item name="android:textSize">50px</item>
+    </style>
+
+    <style name="seperator">
+        <item name="android:layout_height">5dp</item>
+    </style>
+
+    <style name="img">
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_width">40dp</item>
+    </style>
+
+    <style name="Product">
+        <item name="android:layout_height">166dp</item>
+        <item name="android:layout_width">166dp</item>
+    </style>
+
+    <style name="Buy">
+        <item name="android:text">BUY</item>
+        <item name="android:background">@color/colorBuy</item>
+    </style>
+
+    <style name="Next">
+        <item name="android:text">NEXT</item>
+        <item name="android:background">@color/colorNext</item>
+    </style>
+
+    <style name="smalldesc">
+        <item name="android:textSize">30px</item>
+        <item name="android:text">Description</item>
+    </style>
+
+</resources>

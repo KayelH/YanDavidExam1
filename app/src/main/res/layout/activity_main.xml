@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                style="@style/Product"
+                app:srcCompat="@drawable/Chair"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="16dp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                style="@style/DescText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:layout_editor_absoluteX="192dp"
+                tools:layout_editor_absoluteY="105dp" />
+
+            <TextView
+                android:id="@+id/textView"
+                style="@style/MainText"
+                android:layout_width="185dp"
+                android:layout_height="77dp"
+                tools:layout_editor_absoluteX="192dp"
+                tools:layout_editor_absoluteY="16dp" />
+
+            <Button
+                android:id="@+id/button"
+                style="@style/WebsiteBtn"
+                android:layout_width="176dp"
+                android:layout_height="wrap_content"
+                tools:layout_editor_absoluteX="192dp"
+                tools:layout_editor_absoluteY="141dp" />
+
+            <View
+                android:id="@+id/divider"
+                style="@style/seperator"
+                android:layout_width="368dp"
+                android:background="?android:attr/listDivider"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="195dp" />
+        </android.support.constraint.ConstraintLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="221dp">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <View
+                android:id="@+id/divider2"
+                style="@style/seperator"
+                android:layout_width="368dp"
+                android:background="?android:attr/listDivider"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="3dp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                style="@style/WeightCap"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:layout_editor_absoluteX="69dp"
+                tools:layout_editor_absoluteY="18dp" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                style="@style/img"
+                app:srcCompat="@drawable/weight"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="16dp" />
+
+            <View
+                android:id="@+id/divider11"
+                style="@style/seperator"
+                android:layout_width="369dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="8dp"
+                android:background="?android:attr/listDivider"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteY="56dp" />
+
+        </android.support.constraint.ConstraintLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="291dp">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView4"
+                style="@style/img"
+                app:srcCompat="@drawable/price"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="15dp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                style="@style/PriceTag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:layout_editor_absoluteX="63dp"
+                tools:layout_editor_absoluteY="18dp" />
+
+            <View
+                android:id="@+id/divider5"
+                style="@style/seperator"
+                android:layout_width="368dp"
+                android:background="?android:attr/listDivider"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="3dp" />
+
+            <View
+                android:id="@+id/divider4"
+                style="@style/seperator"
+                android:layout_width="368dp"
+                android:background="?android:attr/listDivider"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="65dp" />
+
+        </android.support.constraint.ConstraintLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="361dp">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <View
+                android:id="@+id/divider6"
+                style="@style/seperator"
+                android:layout_width="368dp"
+                android:background="?android:attr/listDivider"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="7dp" />
+
+            <View
+                android:id="@+id/divider8"
+                style="@style/seperator"
+                android:layout_width="368dp"
+                android:background="?android:attr/listDivider"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="58dp" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                style="@style/img"
+                app:srcCompat="@drawable/delivert"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="15dp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                style="@style/Delivery"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:layout_editor_absoluteX="73dp"
+                tools:layout_editor_absoluteY="18dp" />
+        </android.support.constraint.ConstraintLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="431dp">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <View
+                android:id="@+id/divider7"
+                style="@style/seperator"
+                android:layout_width="368dp"
+                android:background="?android:attr/listDivider"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="278dp" />
+
+            <TextView
+                android:id="@+id/textView6"
+                style="@style/Payment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:layout_editor_absoluteX="76dp"
+                tools:layout_editor_absoluteY="18dp" />
+
+            <View
+                android:id="@+id/divider9"
+                style="@style/seperator"
+                android:layout_width="368dp"
+                android:background="?android:attr/listDivider"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="3dp" />
+
+            <View
+                android:id="@+id/divider10"
+                style="@style/seperator"
+                android:layout_width="368dp"
+                android:background="?android:attr/listDivider"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="62dp" />
+
+            <TextView
+                android:id="@+id/textView8"
+                style="@style/smalldesc"
+                android:layout_width="wrap_content"
+                android:layout_height="22dp"
+                tools:layout_editor_absoluteX="215dp"
+                tools:layout_editor_absoluteY="32dp" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                style="@style/img"
+                app:srcCompat="@drawable/Credit"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="15dp" />
+
+        </android.support.constraint.ConstraintLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button2"
+        style="@style/Buy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="538dp" />
+
+    <Button
+        android:id="@+id/button3"
+        style="@style/Next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="288dp"
+        tools:layout_editor_absoluteY="538dp" />
+
+</android.support.constraint.ConstraintLayout>
